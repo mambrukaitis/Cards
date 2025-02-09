@@ -11,7 +11,7 @@ import SwiftUI
 struct Ambrukaitis_COP2654_Mod4CardsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CardsListView()
         }
     }
 }
