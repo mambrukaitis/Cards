@@ -6,26 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E576DEDA2D598E5100265274 /* Stickers in Resources */ = {isa = PBXBuildFile; fileRef = E576DED92D598E4600265274 /* Stickers */; };
+		E576DEE62D598EE100265274 /* Stickers in Resources */ = {isa = PBXBuildFile; fileRef = E576DEE52D598EDC00265274 /* Stickers */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		E576DE6F2D59290F00265274 /* Ambrukaitis_COP2654_Mod4Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ambrukaitis_COP2654_Mod4Cards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E576DED92D598E4600265274 /* Stickers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Stickers; sourceTree = "<group>"; };
+		E576DEE52D598EDC00265274 /* Stickers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Stickers; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		E576DEB22D597F6500265274 /* Exceptions for "Ambrukaitis_COP2654_Mod4Cards" folder in "Ambrukaitis_COP2654_Mod4Cards" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"Ambrukaitis-COP2654-Mod4Cards-Info.plist",
-			);
-			target = E576DE6E2D59290F00265274 /* Ambrukaitis_COP2654_Mod4Cards */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		E576DE712D59290F00265274 /* Ambrukaitis_COP2654_Mod4Cards */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				E576DEB22D597F6500265274 /* Exceptions for "Ambrukaitis_COP2654_Mod4Cards" folder in "Ambrukaitis_COP2654_Mod4Cards" target */,
-			);
 			path = Ambrukaitis_COP2654_Mod4Cards;
 			sourceTree = "<group>";
 		};
@@ -45,6 +39,8 @@
 		E576DE662D59290F00265274 = {
 			isa = PBXGroup;
 			children = (
+				E576DEE52D598EDC00265274 /* Stickers */,
+				E576DED92D598E4600265274 /* Stickers */,
 				E576DE712D59290F00265274 /* Ambrukaitis_COP2654_Mod4Cards */,
 				E576DE702D59290F00265274 /* Products */,
 			);
@@ -122,6 +118,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E576DEE62D598EE100265274 /* Stickers in Resources */,
+				E576DEDA2D598E5100265274 /* Stickers in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

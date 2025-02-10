@@ -11,6 +11,7 @@ struct SingleCardView: View {
     @Environment(\.dismiss) var dismiss
     @State private var currentModal: ToolbarSelection?
     @Binding var card: Card
+    @State private var stickerImage: UIImage?
     
     var body: some View {
         NavigationStack {
@@ -27,6 +28,14 @@ struct SingleCardView: View {
                 }
                 .sheet(item: $currentModal) { item in
                     switch item {
+                    case .stickerModal:
+                        StickerModal(stickerImage: $stickerImage)
+                            .onDisappear {
+                                if let stickerImage = stickerImage {
+                                    card.addElement(uiImage: stickerImage)
+                                }
+                                stickerImage = nil
+                            }
                     default:
                         Text(String(describing: item))
                     }
